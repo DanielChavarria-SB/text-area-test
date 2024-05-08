@@ -1,0 +1,8 @@
+<div class="options-selection-container" *ngFor="let option of inputOptions">
+    <app-mia-path-option
+        [optionText]="option"
+        (clickEvent)="optionSelectedEvent($event)"
+    >        
+    </app-mia-path-option>
+</div>
+

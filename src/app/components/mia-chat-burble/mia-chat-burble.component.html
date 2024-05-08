@@ -1,0 +1,10 @@
+<div class="chat-message">
+    <p class="chat-message__message-time">{{messageTime}}</p>
+    <div class="chat-message__message-content" [ngClass]="{'isUser': isUserMessage}">
+      <div class="chat-message__logo" *ngIf="!isUserMessage">
+        <img class="img" src="https://dev-images.ciencuadras.com/eyJidWNrZXQiOiJkZXYtaW1hZ2VzLWNjIiwia2V5Ijoic291cmNlcy9pbWFnZXMvcmVzdWx0L25vLXBob3RvLXByb3BlcnR5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjkwLCJoZWlnaHQiOjE2MCwiZml0IjoiY292ZXIifX19" alt="" srcset="">
+      </div>      
+      <p class="chat-message__text">{{messagecontent}}</p>
+    </div>
+</div>
+  

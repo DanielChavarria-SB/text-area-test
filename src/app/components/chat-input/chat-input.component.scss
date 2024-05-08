@@ -1,0 +1,24 @@
+.chat-input{
+    display: inline-flex;
+    width: 100%;
+    margin: 10px 0;
+    background: linear-gradient(351.64deg, #C1EAFF -6.45%, #EAF7FF 114.38%);
+    padding: 8px 8px 8px 8px;
+    border-radius: 50px;
+    .p-inputtext{
+        border-radius: 45px;
+        width: calc(100% - 45px);
+    }
+    .chat-input__send-btn{
+        border-radius: 50%;
+        background: linear-gradient(95.99deg, #681899 -52.13%, #045586 27.64%, #3EBBCC 155.08%);
+        width: 44px;
+        height: 44px;
+        border: none;
+        margin-left: 7px;
+    }
+}
+
+
+
+

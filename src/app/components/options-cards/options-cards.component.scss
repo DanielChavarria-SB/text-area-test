@@ -1,0 +1,30 @@
+.cards-options-container{
+    .card-option{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .card-option__btn{
+            width: 61px;
+            height: 61px;
+            border-radius: 8px;
+            border: none;
+            padding: 0;
+            .img-background{
+                width: 61px;
+                height: 61px;
+                border-radius: 8px;
+            }
+        }
+        .card-option__label{
+            margin: 10px 0px;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            letter-spacing: 0px;
+            width: 61px;
+
+        }
+    }
+}
